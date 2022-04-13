@@ -1,0 +1,28 @@
+.fundo-barber{
+    background: url('../assets/backgroundbarbearia.jpeg');
+    width: 100%
+}
+.label-form{
+    width: 100px;
+    padding-top: 30px;
+}
+.label-form2{
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.social-media{
+    height:fit-content;
+    width: fit-content;
+    float: inline-end;
+    padding-left: 3%;
+    padding-right: 3%;
+    align-self: center;
+}
+.logo-foot{
+    height:fit-content;
+    width: fit-content;
+}
+.btn{
+    padding-left: 5%;
+    padding-right: 5%;
+}

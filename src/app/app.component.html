@@ -1,0 +1,102 @@
+<header>
+    <div class="d-flex align-items-center justify-content-center text-light mb-3">
+        <div>
+            <img class="img-fluid float-start w-25" src="../assets/logoBarbearia.png">
+            <span class="d-flex mt-5 fs-4">BARBEARIA EL GUAPO</span> <!--Alterar fonte, logo não responsivo!-->
+        </div>
+
+        <ul class="nav col-12 col-lg-auto me-5 justify-content-center">
+            <li><a href="../index.html" class="nav-link px-3 text-white">Home</a></li>
+            <li><a href="#" class="nav-link px-3 text-white">Serviços</a></li>
+            <li><a href="#" class="nav-link px-3 text-white">Atendimento</a></li>
+            <li><a href="#" class="nav-link px-3 text-white">Agendamento</a></li>
+            <li><a href="#" class="nav-link px-3 text-white">Quem Somos</a></li>
+        </ul>
+
+        <form class="col-12 col-sm-auto me-5">
+            <input type="search" class="form-control form-control-dark" placeholder="Procurar..." aria-label="Search">
+        </form>
+    </div>
+
+</header>
+
+<main class="container-fluid text-light p-0 fundo-barber">
+    <div class="row text-center">
+        <div class="col bg-gradient bg-black bg-opacity-75 ">
+            <h2 class="mt-3"> Corte masculino </h2>
+            <br>
+            <h3> Barba na navalha </h3>
+            <br>
+            <h3> El bigodon style </h3>
+            <br>
+            <h3> Combo corte + el bigodon style </h3>
+        </div>
+
+        <div class="col bg-gradient bg-black bg-opacity-75">
+            <h1 class="mt-3">Atendimento </h1>
+            <br>
+            <h3> segunda a sexta</h3>
+            <br>
+            <h3>das 9h às 19h</h3>
+            <h2>sábado</h2>
+            <br>
+            <h3>das 9h às 18h</h3>
+        </div>
+    </div>
+
+    <div class="bg-gradient bg-black bg-opacity-75 text-center mt-5">
+        <form>
+            <div class="row mb-5">
+                <div class="col">
+                    <div class="col">
+                        <h1 class="mb-4 mt-4">Escolha o Serviço</h1>
+                        <input type="checkbox" name="corte" value="corte">
+                        <label class="label-form2">Corte Masculino</label><br>
+                        <input type="checkbox" name="navalha" value="navalha">
+                        <label class="label-form2">Barba na Navalha</label><br>
+                        <input type="checkbox" name="style" value="style">
+                        <label class="label-form2">El Bigodon Style</label><br>
+                        <input type="checkbox" name="combo" value="total">
+                        <label class="label-form2">Combo Corte + El Bigodon Style</label>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <h1 class="fs-2 mb-4 mt-4">Preencha seus Dados</h1>
+                    <label class="label-form">Nome:</label> 
+                    <input type="text" nome="nome"><br>
+                    <label class="label-form">Sobrenome:</label> 
+                    <input type="text" sobrenome="sobrenome"><br>
+                    <label class="label-form">Telefone:</label> 
+                    <input type="text" telefone="telefone"><br>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <button class="btn btn-outline-primary btn-lg" type="submit" name="enviar" value="Enviar">
+                    Enviar
+                </button>
+            </div>
+        </form>
+        
+    </div>
+</main>
+
+<footer class="bg-black row py-0 mb-0 mt-0">
+     <div class="d-flex">
+        <div class="col d-flex">
+            <img class="logo-foot img-fluid float-start w-50" src="../assets/logoBarbearia.png" alt="">
+        </div>
+
+        <div class="d-flex col justify-content-center align-items-center bg-black">
+            <label class="text-muted text-center">© 2021 Company, Inc</label>
+        </div>
+
+        <div class="col d-flex d-wrap justify-content-end align-content-end bg-black">
+            <img class="social-media img-fluid float-end w-25" src="../assets/whatsapp.png" href="#">
+            <img class="social-media img-fluid float-end w-25" src="../assets/facebook.png" href="#">
+            <img class="social-media img-fluid float-end w-25" src="../assets/instagram.png" href="#">
+        </div>
+     </div>   
+        
+</footer>
